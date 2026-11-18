@@ -1,11 +1,9 @@
 # Lil’s Ice Cream website
 
-Public informational website, migrated from GoDaddy Website Builder while preserving the existing branding. Bookings take place on Square. Inquiry, newsletter and deletion requests use explicitly labeled email links to customerservice@lilsicecream.com; no automatic submission or newsletter list is provided here.
+Migrated from GoDaddy Website Builder with the existing logo, photos, fonts and layout. Hosted on GitHub Pages using main/root and Jekyll permalinks. Do not add .nojekyll. The CNAME is lilsicecream.com.
 
-GitHub Pages: deploy main branch / root with default Jekyll processing enabled. HTML page front matter preserves the existing URLs. Do not add .nojekyll: the page permalinks require Jekyll.
+Bookings take place on Square. Contact, email-update opt-in and Android data-deletion requests use HTML forms delivered by FormSubmit to customerservice@lilsicecream.com. FormSubmit must be activated from its confirmation email before delivery is considered verified. Email-update opt-ins are manual requests, not an automated newsletter system. Default provider spam checking remains enabled, with an additional honeypot. The website privacy policy describes this processing. Direct-email alternatives remain available.
 
-The custom domain must be configured after the preview is verified. Preserve the GoDaddy/Microsoft 365 MX, TXT, DKIM, autodiscover and other email records. Cancel only the separate Website + Marketing subscription after verifying the replacement website and email; retain domain registration and Microsoft 365 email.
+Keep GoDaddy domain registration and the separate $6.99 Microsoft 365 email subscription. Preserve all email DNS records. Cancel only the Website + Marketing subscription after HTTPS and actual form delivery have been verified.
 
-No backend keys, customer data, subscriber lists or GoDaddy form submissions belong in this repository. The privacy policy is retained from the existing site and is not a newly certified legal policy. This migration does not change the mobile apps, CloudKit or Render services.
-
-Assets are the business’s existing site assets; third-party fonts retain their original licensing.
+No backend secrets, mailbox contents, customer records or form submissions belong in this public repository. This migration does not modify the mobile apps, CloudKit or Render services.
