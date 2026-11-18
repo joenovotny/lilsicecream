@@ -1,0 +1,5 @@
+title: Lil’s Ice Cream
+url: https://lilsicecream.com
+baseurl: ""
+exclude:
+  - README.md

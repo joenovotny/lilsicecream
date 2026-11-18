@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lilsicecream.com/sitemap.xml
